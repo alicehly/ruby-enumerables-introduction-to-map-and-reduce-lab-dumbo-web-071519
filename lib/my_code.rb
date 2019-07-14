@@ -1,7 +1,6 @@
 # My Code here....
 def map_to_negativize(source_array)
-number = source_array.map {|n| n > 0 * -n : -n}
- return number
+new=source_array.map {|n| n * -n}
 end
 
 def map_to_no_change(source_array)
@@ -9,12 +8,12 @@ def map_to_no_change(source_array)
 end
 
 def map_to_double(source_array)
-  answer=source_array.map {|n| n > ) * 2 }
-  return answer
+  new=source_array.map {|n| n * 2 }
+  return new
 end
 
 def map_to_square(source_array)
-  answer=source_array.map {|n| n > ) ** 2}
+  answer=source_array.map {|n| n ** 2}
 end
 
 def reduce_to_total(source_array, starting_point=0)
